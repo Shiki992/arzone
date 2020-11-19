@@ -9,7 +9,8 @@
         android:label="arzone"
         android:icon="@mipmap/ic_launcher"
        >
-       <meta-data android:name="com.google.ar.core" android:value="required" />
+       <meta-data android:name="com.google.ar.core" android:value="required"
+           tools:replace="android:value"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
