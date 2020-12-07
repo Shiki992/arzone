@@ -23,7 +23,6 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
-apply plugin: 'kotlin-android'
 apply plugin: 'com.google.ar.sceneform.plugin'
 
 android {
@@ -53,7 +52,6 @@ android {
 
         // Alternatively, use ArSceneView without the UX dependency.
         implementation 'com.google.ar.sceneform:core:1.8.0'
-            implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
