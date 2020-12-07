@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera.ar" />
     <application
-        android:label="arzone"
+        android:label="ARZone"
         android:icon="@mipmap/ic_launcher"
        >
        <meta-data android:name="com.google.ar.core" android:value="required"
